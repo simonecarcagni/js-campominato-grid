@@ -28,9 +28,26 @@ main{
 }
 
 .square{
+    border: 2px solid white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-easy{
     height: calc(100% / 10);
     width: calc(100% / 10);
-    border: 2px solid white;
+}
+
+.square-normal {
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+}
+
+.square-hard {
+    height: calc(100% / 7);
+    width: calc(100% / 7);
 }
 
 footer{
