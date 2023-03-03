@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif ;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    background-color: aqua;
+}
+
+.container{
+    height: 1440px;
+    width: 1440px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+    border: 2px solid white;
+}
+
+footer{
+    height: 50px;
+}
