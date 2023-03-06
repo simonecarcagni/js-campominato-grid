@@ -51,6 +51,13 @@ function generatoreDiQuadrati(min, max) {
 
         squareGen.classList.add('square');
 
+        squareGen.addEventListener('click', function () {
+
+            this.classList.toggle('clicked-blue');
+            console.log(i);
+        }
+        );
+
 
         squareGen.innerHTML += `${i}`;
         containerDom.append(squareGen);
